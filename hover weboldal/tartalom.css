@@ -1,0 +1,78 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to right, yellow, green)
+}
+
+.részletek{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.tartalom{
+    width:100%;
+    margin: 0 auto 0 auto;
+}
+
+.img{
+    float: left;
+    background-image: url(./web2képek/verdák1.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    padding: 110px;
+    float: left;
+    width: 25%;
+    margin: 10px;
+}
+
+.bal{
+    background-color: #5B9CEA;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 7.5px;
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+
+.közép{
+    background-color: #5B9CEA;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;
+    float: left;
+    width: 38.3%;
+    margin: 10px;
+}
+
+.jobb{
+    background-color: #5B9CEA;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;
+    float: left;
+    width: 43.1%;
+    margin: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+      width: 100%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+

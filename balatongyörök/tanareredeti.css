@@ -1,0 +1,87 @@
+body {
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#torzs {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    min-width: 250px;
+    max-width: 1000px;
+}
+
+.image {
+    width:auto;
+    padding: 5px;
+    height: 10px;
+}
+
+.picture {
+    width: 100%;
+    height: 200px;
+}
+
+.image2 {
+    mix-blend-mode: multiply;
+    float: right;
+    width: 15%;
+    padding: 2px;
+    margin: 15px;
+    height: 10px;
+}
+
+.picture2 {
+    width: 100%;
+    height: 150px;
+}
+
+nav {
+    padding-top: 1%;
+    padding-bottom: 12%;
+    padding-left: 2%;
+}
+
+h3 {
+    padding-left: 5%;
+}
+
+section {
+    padding: 15px;
+    width: 400px;
+    background-color: #5B9Cea;
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-left: 5%;
+}
+
+aside {
+    padding: 15px;
+    width: 400px;
+    background-color: #5B9CEA;
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+
+table,th,td,tr {
+    border-collapse:collapse;
+    width: 450px;
+    background-color: #B0D1F1;
+    Border: 1px solid black;
+}
+@media screen and (max-width:1150px) {
+    aside {
+        clear:left;
+    }
+}

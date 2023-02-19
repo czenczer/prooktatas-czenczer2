@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap4</title>
+   <link rel="stylesheet" href="./urlap2.css">
+</head>
+<body>
+    <div class="container">
+        <form action="urlap.html" method="post">
+            <h1> Regisztráció </h1>
+        </div>
+
+        <div>
+            <label for="megszólitas">Megszolítás*</label>
+        </div>
+
+        <div class="megszolitas">
+            <input type="radio" name="Megszolitas" id="holgy" value="holgy">
+            <label for="holgy">Hölgy</label>
+            <input type="radio" name="Megszolitas" id="Úr" value="Úr">
+            <label for="Úr">Úr</label>
+        </div>
+                  
+        <div class="vezeteknev">
+            <label for="nev">Vezetéknév*</label><br>
+             <input type="text" name="nev" id="nev" required>
+        </div>
+
+        <div class="keresztnev">   
+            <label for="nev">Keresztnév*:</label><br>
+            <input type="text" name="nev" id="nev" required>                 
+        </div>
+
+        <div class="datum">
+            <label for="datum">Születési dátum*</label><br>
+             <input type="date" name="datum" id="datum">
+        </div>
+
+        <div class="email">
+            <label for="mail">E-mail*</label><br>
+            <input type="email" name="mail"id="mail" required title="írd be az emailcímet" >
+        </div>
+
+        <div class="email2">
+            <label for="mail">E-mail cím ismételt megadása*</label><br>
+            <input type="email" name="mail"id="mail" required title="írd be az emailcímet" >
+        </div>
+
+       <div class="password">
+            <label for="password">Jelszó*</label><br>
+            <input type="password" name="jelszo" id="jelszo">
+       </div>
+
+       <div class="password2">
+            <label for="password">Jelszó ismételt megadása*</label><br>
+            <input type="password" name="jelszo" id="jelszo">
+       </div>
+
+       <h4><p>*-kötelező mezők</p></h4>
+
+        <div class="checkbox">
+            <input type="checkbox" name="szabalyzat" id="szabalyzat">
+            <label for="szabalyzat"> Tudomásul vettem és elfogadom az Általános szerződési Feltételek/et, valamint
+                az Adatkezelési tájékoztató-ban foglaltakat.*</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" name="szabalyzat" id="szabalyzat">
+            <label for="szabalyzat"> Szeretnék feliratkozni a A dm Hírlevelem-re.A hirlevélről bármikor
+                leíratkozhatok.A Hozzájárulás a dm hírlevélhez-t elolvastam és elfogadom.
+        </div>
+
+         <div class="kuldes">
+        <input type="submit" value="küldés">
+         </div>
+
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="./urlap.css">
+</head>
+<body>
+    <div class="container">
+        <form action="urlap.html" method="post">
+            <h1> Egyszerű űrlap </h1>
+            <label for="nev">Név:</label>
+            <input type="text" name="nev" id="nev" required>
+            <div>
+            <label for="mail">E-mail*:</label>
+            <input type="email" name="mail"id="mail" required title="írd be az emailcímet" >
+        </div>
+        <fieldset>
+        <legend>Értesítések</legend>
+        
+        <div>
+            <input type="checkbox" name="hirlevel" id="hirlevel" checked>
+            <label for="hirlevel"> Szeretnék értesülni a hírlevelekröl</label>
+        </div>
+        <div>
+            <input type="checkbox" name="szabalyzat" id="szabalyzat">
+            <label for="szabalyzat"> Megértettem a szabályzatot</label>
+        </div>
+        <p>Hozzájárulok a reklámlevelek fogadásához</p>
+        <div>
+            <input type="radio" name="reklam" id="igen" value="igen">
+            <label for="igen">igen</label>
+        </div>
+        <div>
+            <input type="radio" name="reklam" id="nem" value="nem">
+            <label for="nem">nem</label>
+        </div>
+    </fieldset>
+        <p>Megjegyzés</p>
+        <textarea name="megjegyez" id="megjegyez" cols="30" rows="10"></textarea>
+        <div>
+        <input type="submit" value="küldés">
+        <input type="reset" value="törlés">
+        <div>
+        </form>
+    </div>
+
+</body>
+</html>

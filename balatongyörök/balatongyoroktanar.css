@@ -1,0 +1,110 @@
+body{
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.keret{
+    width:100%;
+    margin: 0 auto 0 auto;
+}
+.header{
+    width: 90%;
+        background-image: url(./img/panorama.jpg);
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+    height: 200px;
+    padding: 20px;
+}
+.cimerkep img{
+    width: 150px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.bal{
+    width: 80%;
+    margin: auto;
+    background-color: #5B9CEA;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.jobb{
+    width: 80%;
+   margin: auto;
+     background-color: #5B9CEA;
+     padding: 20px;
+     margin-bottom: 20px;
+     margin-left: 20px;
+}
+.harmadik{
+     width: 80%;
+     margin: auto;
+     background-color: #5B9CEA;
+     padding: 20px;
+     margin-bottom: 20px;
+     margin-left: 20px;
+}
+.felkover{
+        font-weight: bold;
+}
+.bekezdes{
+   font-weight: bold;
+}
+.tablazat{
+    text-align: center;
+    background-color: #B0D1F1;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.tablazat td{
+    border: 1px solid black;
+    padding: 5px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: red;
+}
+@media screen and (min-width:900px) {
+    .bal {
+        width: 28%;
+        float: left;
+    }
+    .jobb {
+        width: 28%;
+        float: left;
+    }
+    .harmadik{
+        width: 28%;
+        float: left;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .cimerkep img{
+        width: 20%;
+         }
+}
+
+@media screen and (max-width:500px) {
+    .cimerkep{
+        display: none;
+    }
+    .header{
+        height: 150px;
+    }
+}
+@media screen(min-width:450px) or (min-width:800px) {
+    h1{
+        color:red;
+    }
+} 
+ 
